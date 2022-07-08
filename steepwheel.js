@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-const STEEP_WHEEL_URL = 'http://localhost:3000/';
-const STEEP_WHEEL_ACCESS_TOKEN = '123123';
+const STEEP_WHEEL_URL = 'http://checkerwheel:3000/';
+const STEEP_WHEEL_ACCESS_TOKEN = '';
 
 async function getBalance() {
     const headers = { "Accept": "application/json","Content-Type": "application/json" };
