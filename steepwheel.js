@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const STEEP_WHEEL_URL = 'http://checkerwheel:3000/';
+const STEEP_WHEEL_URL = 'http://checkerwheel.ru:3000/';
 const STEEP_WHEEL_ACCESS_TOKEN = '';
 
 async function getBalance() {
